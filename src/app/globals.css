@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-dark text-light antialiased;
+  background-image: theme("backgroundImage.mesh-gradient");
+  min-height: 100vh;
+}
+
+.glass {
+  @apply bg-white/5 border border-white/10 backdrop-blur-md shadow-glass;
+}
